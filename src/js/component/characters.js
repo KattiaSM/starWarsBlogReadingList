@@ -1,0 +1,36 @@
+import React from "react";
+import PropTypes from "prop-types";
+
+//////////Character1 Luke-skywalker
+
+export class Characters extends React.Component {
+	render(props) {
+		return (
+			<div className="card-characters card col-lg-6 col-md-6  ">
+				<div className="card-body">
+					<img
+						src="https://files.brainfall.com/wp-content/uploads/2015/10/which_star_wars_character_are_you_featured_large.jpg"
+						className="card-img-top"
+						alt="..."
+					/>
+					<h5 className="title card-title" />
+					<h6 className="card-subtitle mb-2 text-muted">
+						Name: {this.props.name}
+					</h6>
+					<h6 className="card-subtitle mb-2 text-muted">
+						Height: {this.props.height}
+					</h6>
+					<h6 className="card-subtitle mb-2 text-muted">
+						Birth-Year: {this.props.birth_year}
+					</h6>
+				</div>
+			</div>
+		);
+	}
+}
+
+Characters.propTypes = {
+	name: PropTypes.string,
+	height: PropTypes.string,
+	birth_year: PropTypes.string
+};
