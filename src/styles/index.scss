@@ -3,66 +3,58 @@
 body{
     background: black;
 }
+
 .hr-top, .hr-bottom{
-    border-top: .05rem solid rgb(248, 244, 5);
+    border-top: 2px solid rgb(248, 244, 5);
     width: 1050px;
 }
 
 .pText{
-    color:lightgray;
+    color:LightGrey;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 20px;
 
 }
 
-
-
-/****************************** NavBar Component *********************/
+/**** NavBar Component ****/
 .navbar{
- background: black;
+ background:black;
 }
 .logo{
     width: 180px;
     height: 180px;
 }
 
-
-.social-cont{
-    color: white;
-    font-size: 20px;
-
-}
-.facebook, .instagram, .twitter{
-    margin-left:10px;
-}
-.facebook:hover, .instagram:hover, .twitter:hover, .btn-text:hover{
-color:#1ebba3;
+.dropdown, .search-btn{
+    margin-left:50px;
+    height: 30px;
 }
 
 .input, .search-btn{
     height: 30px;
+    margin-left:.05rem;
 }
+
 .btn-text{
     font-size: 10px;
 }
 
-/****************************** Card Component *********************/
+/**** Card Component ****/
 .card-planets, .card-characters{
     background: black;
 }
 .title{
     color:white;
 }
-/****************************** Footer Component *********************/
-.page-footer{
 
+/**** Footer Component ****/
+.page-footer{
     height: 100px;
     margin-top:300px;
 }
 .footer-cr {
-    color:white;
+    color: white;
 
 }
-

@@ -61,13 +61,13 @@ export class Home extends React.Component {
 		});
 
 		return (
-			<div className="home ">
+			<div className="home">
 				<div className="navbar-cont">
 					<NavBar />
 				</div>
 				<div>
 					<hr className="hr-top col-lg-10 col-md-6 col-sm-6 col-xs-6 " />
-					<p className="pText">Planets</p>
+					<p className="pText">PLANETS</p>
 					<hr className="hr-bottom col-lg-10 col-md-6 col-sm-6 col-xs-6 " />
 				</div>
 				<div className="container">
@@ -75,7 +75,7 @@ export class Home extends React.Component {
 				</div>
 				<div>
 					<hr className="hr-top col-lg-10 col-md-6 col-sm-6 col-xs-6" />
-					<p className="pText">People</p>
+					<p className="pText">PEOPLE</p>
 					<hr className="hr-bottom col-lg-10 col-md-6 col-sm-6 col-xs-6" />
 				</div>
 
