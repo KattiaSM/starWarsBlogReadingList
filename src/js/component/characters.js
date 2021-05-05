@@ -18,7 +18,7 @@ export class Characters extends React.Component {
 						Name: {this.props.name}
 					</h6>
 					<h6 className="card-subtitle mb-2 text-muted">
-						Height: {this.props.height}
+						Gender: {this.props.gender}
 					</h6>
 					<h6 className="card-subtitle mb-2 text-muted">
 						Birth-Year: {this.props.birth_year}
@@ -31,6 +31,6 @@ export class Characters extends React.Component {
 
 Characters.propTypes = {
 	name: PropTypes.string,
-	height: PropTypes.string,
+	gender: PropTypes.string,
 	birth_year: PropTypes.string
 };

@@ -43,7 +43,7 @@ export class Home extends React.Component {
 				<Characters
 					key={index}
 					name={item.name}
-					height={item.height}
+					gender={item.gender}
 					birth_year={item.birth_year}
 				/>
 			);
