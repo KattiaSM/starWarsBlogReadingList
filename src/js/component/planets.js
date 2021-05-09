@@ -21,6 +21,12 @@ export class Planets extends React.Component {
 					<h6 className="card-subtitle mb-2 text-muted">
 						Population: {this.props.population}
 					</h6>
+					<a href="#" className="btn btn-light">
+						<i className="fas fa-info-circle"></i>
+					</a>
+					<a href="#" className="btn btn-light">
+						<i className="fas fa-heart"></i>
+					</a>
 				</div>
 			</div>
 		);

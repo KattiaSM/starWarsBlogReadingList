@@ -1,8 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-//////////Character1 Luke-skywalker
-
 export class Characters extends React.Component {
 	render(props) {
 		return (
@@ -23,6 +21,12 @@ export class Characters extends React.Component {
 					<h6 className="card-subtitle mb-2 text-muted">
 						Birth-Year: {this.props.birth_year}
 					</h6>
+					<a href="#" className="btn btn-light">
+						<i className="fas fa-info-circle"></i>
+					</a>
+					<a href="#" className="btn btn-light">
+						<i className="fas fa-heart"></i>
+					</a>
 				</div>
 			</div>
 		);

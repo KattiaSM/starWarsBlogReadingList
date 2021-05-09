@@ -10,12 +10,11 @@ body{
 }
 
 .pText{
-    color:LightGrey;
+    color:lightgrey;
     text-align: center;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 20px;
-
 }
 
 /**** NavBar Component ****/
@@ -45,8 +44,21 @@ body{
 .card-planets, .card-characters{
     background: black;
 }
-.title{
-    color:white;
+
+.text-muted{
+    color: white !important;
+}
+
+.btn-light{
+    margin-left:10px;
+}
+
+.fa-heart:hover{
+    color:red !important;
+}
+
+.fa-info-circle:hover{
+    color:green !important;
 }
 
 /**** Footer Component ****/

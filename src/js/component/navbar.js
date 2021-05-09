@@ -19,7 +19,9 @@ export const NavBar = () => {
 					<button
 						className="search-btn btn btn-outline-light my-2 my-sm-0"
 						type="submit">
-						<div className="btn-text">Search</div>
+						<div className="btn-text">
+							<i className="fas fa-search"></i>
+						</div>
 					</button>
 					<div className="dropdown">
 						<button
